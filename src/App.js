@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './sass/global.css';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Don't learn React
         </a>
       </header>
     </div>
