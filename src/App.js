@@ -6,14 +6,14 @@ import {
   Route,
   link
 } from 'react-router-dom'
-import InfoHeader from './pages/info/header/header';
+import InfoPage from './pages/info/info';
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route path="/info">
-          <InfoHeader></InfoHeader>
+          <InfoPage></InfoPage>
         </Route>
       </Switch>
       <Switch>

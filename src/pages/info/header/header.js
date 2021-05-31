@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../sass/pages/info/header/header.css';
 
-const InfoHeader = () => {
+const MainHeader = () => {
     return (
         <div className="InfoContainer">
             <h1>I AM HYUGE</h1>
@@ -9,4 +9,4 @@ const InfoHeader = () => {
     );
 };
 
-export default InfoHeader;
+export default MainHeader;
