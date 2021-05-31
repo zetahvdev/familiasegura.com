@@ -5,6 +5,6 @@ This is an informative website for understanding the new releasing project calle
 It is composed of this 3 features:
   - Secured
   - Verified
-  - Investment startup experiennce
+  - Investment startup experience
 
 Any comments to zetahvdev.github.io or more info about my other projects.
