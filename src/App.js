@@ -3,8 +3,7 @@ import Home from '../src/pages/home/home.js'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  link
+  Route
 } from 'react-router-dom'
 import InfoPage from './pages/info/info';
 
