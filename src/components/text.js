@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/text.css';
+import '../components/text.module.css';
 
 const TextMain = ({size, content}) => {
     return (
