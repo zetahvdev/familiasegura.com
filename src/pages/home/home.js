@@ -3,7 +3,9 @@ import MainHeader from './header/header.js';
 
 const Home = () => {
     return (
-        <MainHeader></MainHeader>
+        <div className="another">
+            <MainHeader></MainHeader>
+        </div>
     );
 };
 
