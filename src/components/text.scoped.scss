@@ -1,3 +1,22 @@
+@import '../sass/global.scss';
+
+$text-sizes: (
+    "small": 13px,
+    "medium": 33px,
+    "big": 43px
+);
+
 .Text {
     font-family: 'League Spartan';
+}
+
+// Creates classes for type of text sizes
+@each $textSizeNames, $textSizes in $text-sizes {
+    .text-#{$textSizeNames} {
+        font-size: $textSizes;
+    }
+}
+
+.text-white {
+    color: $main-text-color;
 }

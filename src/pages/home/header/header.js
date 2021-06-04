@@ -1,18 +1,20 @@
 import React from 'react';
-import '../../../sass/pages/home/header/header.css';
+import '../../../sass/pages/home/header/header.scoped.css';
 import Navigation from './nav/nav';
 
 const MainHeader = () => {
     return (
-        <div className="HeaderContainer">
-            <Navigation
-                className="sdf"
-
-                // Data
-                navlinkarr= {[
-                    "CONTACTO", "INICIO", "INFORMACIÓN"
-                ]} >
-            </Navigation>
+        <div className="HeaderGrid">
+            <div className="NavContainer">
+                <Navigation
+                    // Data
+                    navlinkarr= {[
+                        "CONTACTO", "INICIO", "INFORMACIÓN"
+                    ]}
+                     >
+                </Navigation>
+                <hr className="hr-white"/>
+            </div>
         </div>
     );
 };

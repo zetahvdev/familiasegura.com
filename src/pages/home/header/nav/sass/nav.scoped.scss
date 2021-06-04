@@ -1,16 +1,6 @@
 /*If text is set to text-reset it will inherit the parents color*/
 $white-text: #fff;
 
-
-
-hr {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    background-color: $white-text;
-}
-
 //overwriting bootstrap items
 
 .navbar-light .navbar-toggler {

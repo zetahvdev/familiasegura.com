@@ -6,5 +6,22 @@
   font-style: normal;
   font-display: swap; }
 
-.HeaderContainer {
-  color: #3f3e3e; }
+.HeaderGrid {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+  background-image: url("/src/assets/imgs/header.background.png"); }
+
+.NavContainer {
+  grid-column: 1; }
+
+hr {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  background-color: #3f3e3e; }
+
+.hr-white {
+  background-color: white; }

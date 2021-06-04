@@ -6,7 +6,6 @@ import {
   Route
 } from 'react-router-dom'
 import InfoPage from './pages/info/info';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

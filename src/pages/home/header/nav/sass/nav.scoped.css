@@ -1,11 +1,4 @@
 /*If text is set to text-reset it will inherit the parents color*/
-hr {
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  background-color: #fff; }
-
 .navbar-light .navbar-toggler {
   border-color: white !important; }
 

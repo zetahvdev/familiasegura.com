@@ -1,2 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: 'League Spartan';
+  src: url("/src/assets/fonts/LeagueSpartan-Bold.woff2") format("woff2"), url("/src/assets/fonts/LeagueSpartan-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
 .Text {
   font-family: 'League Spartan'; }
+
+.text-small {
+  font-size: 13px; }
+
+.text-medium {
+  font-size: 33px; }
+
+.text-big {
+  font-size: 43px; }
+
+.text-white {
+  color: #3f3e3e; }

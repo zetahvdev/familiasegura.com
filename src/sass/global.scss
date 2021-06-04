@@ -7,4 +7,9 @@
 // Color Palette
 $main-font: 'League Spartan';
 $main-text-color: #3f3e3e;
-$secondary-text-color: green;
+
+@mixin make-grid($rows, $columns) {
+    display: grid;
+    grid-template-rows: $rows;
+    grid-template-columns: $columns;
+}
