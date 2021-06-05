@@ -2,7 +2,7 @@ import React from 'react';
 import '../components/text.scoped.css';
 
 type textProps = {
-    color?: "white" | "black",
+    color?: "white" | "main" | "secondary" | "alert",
     size: "small" | "medium" | "large",
     content: string
 };

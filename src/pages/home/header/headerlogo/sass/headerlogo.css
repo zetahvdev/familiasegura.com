@@ -1,0 +1,12 @@
+img {
+  height: 100%;
+  margin: auto; }
+
+.HeaderLogo-frame {
+  margin: 0;
+  border-style: solid;
+  border-radius: 50% 50% 50% 50%;
+  border-width: 0;
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden; }

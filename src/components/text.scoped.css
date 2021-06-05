@@ -10,35 +10,29 @@
   font-family: 'League Spartan';
   position: relative; }
 
-.Text::before {
-  transform: scaleX(0);
-  transform-origin: bottom right; }
-
-.Text:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left; }
-
-.Text::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  inset: 0 0 0 0;
-  background: #99ddff;
-  z-index: -1;
-  transition: transform .3s ease; }
-
 .text-small {
   font-size: 13px; }
 
 .text-medium {
-  font-size: 33px; }
+  font-size: 23px; }
 
 .text-big {
-  font-size: 43px; }
+  font-size: 33px; }
+
+.text-huge {
+  font-size: 90px; }
+
+.text-title-size {
+  font-size: 18px; }
 
 .text-white {
+  color: white; }
+
+.text-main {
   color: #3f3e3e; }
+
+.text-secondary {
+  color: #5f5f5f; }
+
+.text-alert {
+  color: #f84a4a; }
