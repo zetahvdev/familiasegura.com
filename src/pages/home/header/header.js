@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../sass/pages/home/header/header.scoped.css';
-import Navigation from './nav/nav';
+import Navigation from './nav/nav.js';
 
 const MainHeader = () => {
     return (

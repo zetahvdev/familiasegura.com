@@ -2,24 +2,18 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './sass/nav.scoped.css';
-import Text from '../../../../../src/components/text.js';
+import Text from '../../../../../src/components/text.tsx';
 
-const Navigation = ({fix, hasnonavcollapse, navlinkarr}) => {
+const Navigation = ({navlinkarr}) => {
     // Creates a itemid for the Nav Links:
-    const navlinkitems = [];
-    for (let i = 0; i < navlinkarr.length; i++) {
-        navlinkitems.push(
-            {id: i, navlink: navlinkarr[i]}
-        );
-    }
-    console.log(navlinkitems);
+    const navlinkitems = addIndexToDict(navlinkarr);
 
     return (
         <div className="Navigation px-lg-4 px-3">
             <Navbar expand="md">
-                <Navbar.Toggle aria-controls="basic-navbar-nav" className={hasnonavcollapse}/>
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className={"ml-auto justify-content-end navi__fix-" + fix}>
+                    <Nav className={"ml-auto justify-content-end"}>
                         {   
                             // Creates the Nav Links with props
                             navlinkitems.map(navlink => (
@@ -43,3 +37,14 @@ const Navigation = ({fix, hasnonavcollapse, navlinkarr}) => {
 };
 
 export default Navigation;
+
+function addIndexToDict(arraytoconvert) {
+    const indexArray = [];
+    for (let i = 0; i < arraytoconvert.length; i++) {
+        indexArray.push(
+            {id: i, navlink: arraytoconvert[i]}
+        );
+    }
+
+    return indexArray
+}

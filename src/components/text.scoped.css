@@ -7,7 +7,29 @@
   font-display: swap; }
 
 .Text {
-  font-family: 'League Spartan'; }
+  font-family: 'League Spartan';
+  position: relative; }
+
+.Text::before {
+  transform: scaleX(0);
+  transform-origin: bottom right; }
+
+.Text:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left; }
+
+.Text::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #99ddff;
+  z-index: -1;
+  transition: transform .3s ease; }
 
 .text-small {
   font-size: 13px; }
