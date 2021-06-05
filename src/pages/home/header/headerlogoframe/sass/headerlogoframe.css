@@ -1,0 +1,7 @@
+.HeaderLogo-frame {
+  background-position-x: right;
+  margin: 0;
+  border-style: solid;
+  border-radius: 50% 50% 50% 50%;
+  border-width: 0;
+  overflow: hidden; }

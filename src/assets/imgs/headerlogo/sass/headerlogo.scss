@@ -1,0 +1,7 @@
+@import '../../../../sass/global.scss';
+
+img {
+    height: 100%;
+    margin: auto;
+    @include center-imgx();
+}

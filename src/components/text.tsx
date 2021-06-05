@@ -3,7 +3,7 @@ import '../components/text.scoped.css';
 
 type textProps = {
     color?: "white" | "main" | "secondary" | "alert",
-    size: "small" | "medium" | "large",
+    size: "small" | "medium" | "large" | "huge" | "title-size",
     content: string
 };
 

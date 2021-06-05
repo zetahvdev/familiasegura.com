@@ -10,13 +10,3 @@ img {
   height: 100%;
   margin: auto;
   margin-left: -50%; }
-
-.HeaderLogo-frame {
-  background-position-x: right;
-  margin: 0;
-  border-style: solid;
-  border-radius: 50% 50% 50% 50%;
-  border-width: 0;
-  width: 35rem;
-  height: 35rem;
-  overflow: hidden; }
