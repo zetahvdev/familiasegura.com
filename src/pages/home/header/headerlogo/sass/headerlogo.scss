@@ -1,14 +1,18 @@
+@import '../../../../../sass/global.scss';
+
 img {
     height: 100%;
     margin: auto;
+    @include center-imgx();
 }
 
 .HeaderLogo-frame {
+    background-position-x: right;
     margin: 0;
     border-style: solid;
     border-radius: 50% 50% 50% 50%;
     border-width: 0;
-    width: 20rem;
-    height: 20rem;
+    width: 35rem;
+    height: 35rem;
     overflow: hidden;
 }

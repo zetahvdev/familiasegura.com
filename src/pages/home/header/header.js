@@ -11,7 +11,7 @@ const MainHeader = () => {
                 <Navigation
                     // Data
                     navlinkarr= {[
-                        "CONTACTO", "INICIO", "INFORMACIÓN"
+                        "INICIO", "CONTACTO", "INFORMACIÓN"
                     ]}
                         >
                 </Navigation>

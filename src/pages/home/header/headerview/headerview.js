@@ -10,13 +10,13 @@ const HeaderView = () => {
                     content="FAMILIA SEGURA"
                     size="huge"
                     color="white"></Text>
-                <p className="add-letter-spacing">
+                <div className="add-letter-spacing">
                     <Text
                         content="UN SISTEMA PARA TRABAJAR EN FAMILIA"
                         size="title-size"
                         color="main"
                     ></Text>
-                </p>
+                </div>
             </h5>
         </div>
     );
