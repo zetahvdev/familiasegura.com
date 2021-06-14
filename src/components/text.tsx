@@ -1,5 +1,4 @@
-import React from 'react';
-import '../components/text.scoped.css';
+import 'src/components/text.scoped.css';
 
 type textProps = {
     color?: "white" | "main" | "secondary" | "alert",

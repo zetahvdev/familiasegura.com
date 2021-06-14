@@ -1,6 +1,7 @@
-import React from 'react';
-import HeaderLogo from '../../../../assets/imgs/headerlogo/headerlogo';
-import '../headerlogoframe/sass/headerlogoframe.css';
+import FS_logo from 'src/assets/imgs/Familia_Segura.png';
+
+import HeaderLogo from 'src/components/headerlogo/headerlogo';
+import './sass/headerlogoframe.css';
 
 const HeaderLogoFrame = ({width, height, measure_unit}) => {
     return (
@@ -11,7 +12,7 @@ const HeaderLogoFrame = ({width, height, measure_unit}) => {
                 height: height + measure_unit
             }}
         >
-            <HeaderLogo></HeaderLogo>
+            <HeaderLogo logo={FS_logo}></HeaderLogo>
         </div>
             
     );
