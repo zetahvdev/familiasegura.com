@@ -1,6 +1,6 @@
-import React from 'react';
-import Text from '../../../../components/text'
+import Text from 'src/components/text'
 import '../headerview/sass/headerview.css'
+import TextResponsive from 'src/components/textresponsive/TextResponsive';
 
 interface HeaderViewProps {
     titleText: {
@@ -19,11 +19,12 @@ const HeaderView = ({titleText, subtitleText, ...props}: HeaderViewProps) => {
     return (
         <div className="HeaderView">
             <h5>
-                <Text
+                <TextResponsive
                     content={titleText.content}
                     size={titleText.size}
                     color={titleText.color}
-                ></Text>
+                    type="normal"
+                ></TextResponsive>
                 <div className="add-letter-spacing">
                     <Text
                         content={subtitleText.content}

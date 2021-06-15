@@ -1,0 +1,34 @@
+@import 'src/sass/global.scss';
+
+.responsive-normal {
+
+    @include respond-to("mobile") {
+        font-size: 70%;
+    }
+
+    @include respond-to("tablet-normal") {
+        font-size: 50%;
+    }
+
+    @include respond-to("tablet-large") {
+        font-size: 70%;
+    }
+}
+
+.responsive-normal-on-mobile {
+
+    @include respond-to("mobile") {
+        font-size: 70% !important;
+        color: red;
+    }
+
+    @include respond-to("tablet-normal") {
+        color: blue;
+        font-size: 50% !important;
+    }
+
+    @include respond-to("tablet-large") {
+        font-size: 70% !important;
+        color: darkgoldenrod;
+    }
+}

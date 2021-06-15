@@ -1,11 +1,18 @@
 import React from 'react';
 import MainHeader from './header/header.js'
+import TextResponsive from 'src/components/textresponsive/TextResponsive';
 
 
 const InfoPage = () => {
     return (
         <div>
             <MainHeader></MainHeader>
+            <TextResponsive
+                size="large"
+                content="Well, I guess it works..."
+                type="normal"
+            >
+            </TextResponsive>
         </div>
     );
 };

@@ -1,10 +1,11 @@
-import React from 'react';
 import Text from 'src/components/text';
+import './sass/TextResponsive.css';
 
-const TextResponsive = () => {
+const TextResponsive = ({type, ...props}) => {
+
     return (
         <div className="TextResponsive">
-            <Text>Hellow</Text>
+            <Text {...props} css={`responsive-${type}`} ></Text>
         </div>
     );
 };

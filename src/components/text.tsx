@@ -1,15 +1,18 @@
 import 'src/components/text.scoped.css';
 
-type textProps = {
+export interface textProps {
     color?: "white" | "main" | "secondary" | "alert",
     size: "small" | "medium" | "large" | "huge" | "title-size",
-    content: string
+    content: string,
+    css?: string
 };
 
-const TextMain = ({color, size, content}: textProps) => {
+const TextMain = ({color, size, content, css}: textProps) => {
     return (
         <div className={`Text text-${size} text-${color}`}>
-            {content}
+            <div className={`${css}`}>
+                {content}
+            </div>
         </div>
     );
 };
