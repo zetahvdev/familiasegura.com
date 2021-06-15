@@ -1,4 +1,4 @@
-@import '../../../../sass/global.scss';
+@import 'src/sass/global.scss';
 
 hr {
     margin-top: 0px !important;
@@ -9,9 +9,10 @@ hr {
 }
 
 .HeaderGrid {
-    min-height: 100vh;
+    min-height: 500px;
     @include make-grid(auto 1fr, 55fr 45fr);
     background-image: url("/src/assets/imgs/header.background.png");
+    overflow: hidden;
 }
 
 .HeaderView-container {
@@ -31,6 +32,20 @@ hr {
     grid-row: 2;
     grid-row-end: span 3;
     overflow: hidden;
+    align-self: center;
+    justify-self: end;
+    width: 80vh;
+    height: 80vh;
+
+    @include respond-to("tablet-large") {
+        width: 480px;
+        height: 480px;
+    }
+
+    @include respond-to("tablet-normal") {
+        width: 350px;
+        height: 350px;
+    }
 }
 
 .hr-white {

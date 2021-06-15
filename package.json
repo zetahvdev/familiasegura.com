@@ -24,7 +24,7 @@
   },
   "scripts": {
     "craco-start": "craco start",
-    "start": "npm-run-all --parallel craco-start watch-css",
+    "start": "npm run craco-start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",

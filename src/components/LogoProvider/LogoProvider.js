@@ -1,4 +1,4 @@
-import './sass/headerlogo.css';
+import './sass/LogoProvider.scoped.css';
 
 const HeaderLogo = ({logo}) => {
     return (

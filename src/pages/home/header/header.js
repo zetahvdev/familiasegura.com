@@ -1,8 +1,8 @@
 import React from 'react';
 import '../header/sass/header.scoped.css';
 import Navigation from './nav/nav';
-import HeaderView from '../header/headerview/headerview';
-import HeaderLogoFrame from '../header/headerlogoframe/headerlogoframe';
+import HeaderView from '../header/HeaderView/HeaderView';
+import HeaderLogoFrame from '../header/HeaderLogoFrame/HeaderLogoFrame';
 
 const MainHeader = () => {
     return (

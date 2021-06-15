@@ -1,4 +1,4 @@
-import 'src/components/text.scoped.css';
+import 'src/components/Text.scoped.css';
 
 export interface textProps {
     color?: "white" | "main" | "secondary" | "alert",

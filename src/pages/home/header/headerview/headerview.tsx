@@ -1,6 +1,6 @@
-import Text from 'src/components/text'
-import '../headerview/sass/headerview.css'
-import TextResponsive from 'src/components/textresponsive/TextResponsive';
+import Text from 'src/components/Text'
+import './sass/HeaderView.css'
+import TextResponsive from 'src/components/TextResponsive/TextResponsive';
 
 interface HeaderViewProps {
     titleText: {
@@ -15,7 +15,7 @@ interface HeaderViewProps {
     }
 }
 
-const HeaderView = ({titleText, subtitleText, ...props}: HeaderViewProps) => {
+const HeaderView = ({titleText, subtitleText}: HeaderViewProps) => {
     return (
         <div className="HeaderView">
             <h5>

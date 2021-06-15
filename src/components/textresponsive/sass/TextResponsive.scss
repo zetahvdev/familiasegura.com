@@ -2,15 +2,17 @@
 
 .responsive-normal {
 
-    @include respond-to("mobile") {
-        font-size: 70%;
+    // Leave default text size
+    // Always put the largest breaktpoint to the lowest
+    @include respond-to("tablet-large") {
+        font-size: 85%;
     }
 
     @include respond-to("tablet-normal") {
-        font-size: 50%;
+        font-size: 80%;
     }
 
-    @include respond-to("tablet-large") {
+    @include respond-to("mobile") {
         font-size: 70%;
     }
 }
@@ -18,7 +20,7 @@
 .responsive-normal-on-mobile {
 
     @include respond-to("mobile") {
-        font-size: 70% !important;
+        font-size: 200%;
         color: red;
     }
 
@@ -28,7 +30,7 @@
     }
 
     @include respond-to("tablet-large") {
-        font-size: 70% !important;
+        font-size: 80%;
         color: darkgoldenrod;
     }
 }

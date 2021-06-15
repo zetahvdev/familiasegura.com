@@ -2,9 +2,10 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './sass/nav.scoped.css';
-import Text from '../../../../../src/components/text';
+import TextResponsive from 'src/components/TextResponsive/TextResponsive';
 
 type NavigationPros = {
+    // List of nav items with respective URLs
     navlinkarr: [string]
 }
 
@@ -21,14 +22,14 @@ const Navigation = ({navlinkarr}: NavigationPros) => {
                         {   
                             // Creates the Nav Links with props
                             navlinkitems.map(navlink => (
-                                <Nav.Link href="#">
+                                <Nav.Link href="#" key={navlink.id} >
                                     <h6 className="mx-4 my-0">
-                                        <Text
-                                            key={navlink.id}
+                                        <TextResponsive
                                             content={navlink.navlink}
                                             size="small"
                                             color="white"
-                                        ></Text>
+                                            type="normal"
+                                        ></TextResponsive>
                                     </h6>
                                 </Nav.Link>
                             ))

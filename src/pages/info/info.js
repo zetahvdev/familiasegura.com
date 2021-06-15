@@ -1,6 +1,6 @@
 import React from 'react';
 import MainHeader from './header/header.js'
-import TextResponsive from 'src/components/textresponsive/TextResponsive';
+import TextResponsive from 'src/components/TextResponsive/TextResponsive';
 
 
 const InfoPage = () => {

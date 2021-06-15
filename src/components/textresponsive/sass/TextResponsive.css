@@ -6,29 +6,29 @@
   font-style: normal;
   font-display: swap; }
 
-@media (max-width: 767px) {
-  .responsive-normal {
-    font-size: 70%; } }
-
-@media (max-width: 892px) {
-  .responsive-normal {
-    font-size: 50%; } }
-
 @media (max-width: 1000px) {
+  .responsive-normal {
+    font-size: 85%; } }
+
+@media (max-width: 840px) {
+  .responsive-normal {
+    font-size: 80%; } }
+
+@media (max-width: 767px) {
   .responsive-normal {
     font-size: 70%; } }
 
 @media (max-width: 767px) {
   .responsive-normal-on-mobile {
-    font-size: 70% !important;
+    font-size: 200%;
     color: red; } }
 
-@media (max-width: 892px) {
+@media (max-width: 840px) {
   .responsive-normal-on-mobile {
     color: blue;
     font-size: 50% !important; } }
 
 @media (max-width: 1000px) {
   .responsive-normal-on-mobile {
-    font-size: 70% !important;
+    font-size: 80%;
     color: darkgoldenrod; } }
